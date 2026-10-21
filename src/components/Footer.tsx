@@ -53,7 +53,10 @@ export function Footer() {
       </div>
 
       <div className="flex flex-col items-center justify-between gap-2 border-t border-page/10 px-5 py-5 font-mono text-[0.65rem] uppercase tracking-[0.2em] text-page/50 sm:flex-row sm:px-8">
-        <span>© {new Date().getFullYear()} Гербарий №7 · цветочная мастерская</span>
+        <span>
+          © {new Date().getFullYear()} Гербарий №7 · сайт-концепт студии{' '}
+          <a href="https://rogday8.github.io/mir-saitov/" target="_blank" rel="noreferrer" className="hover:text-ochre">«Мир сайтов»</a> · все права защищены
+        </span>
         <a href="#top" className="hover:text-ochre">
           к началу ↑
         </a>
